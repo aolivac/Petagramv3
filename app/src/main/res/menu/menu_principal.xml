@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menuFavoritos"
+        android:icon="@drawable/estrella_de_cinco_puntas"
+        android:title="@string/menu_name"
+        app:showAsAction="ifRoom"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </item>
+    -->
+    <item android:id="@+id/mContacto"
+        android:title="@string/menu_contacto"
+        android:orderInCategory="100"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></item>
+
+
+
+    <item android:id="@+id/mAcercaDe"
+        android:title="@string/menu_acercade"
+        android:orderInCategory="101"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></item>
+
+
+</menu>
